@@ -29,7 +29,7 @@ C#, ASP.NET Core, Angular, TypeScript — Clean Architecture, CQRS/MediatR, Modu
 
 ## Certifications
 
-🏅 Microsoft Certified: Azure Developer Associate (AZ-204)
+🏅 Microsoft Certified: Azure Developer Associate (AZ-204)<br>
 🏅 Microsoft Certified: Azure Fundamentals (AZ-900)
 
 ## Currently
