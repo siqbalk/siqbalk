@@ -31,9 +31,17 @@ I design and deliver cloud-native enterprise platforms, including multi-tenant S
 - Reduced manual processing time by **60%**
 
 ### GPrime CRM (Dubai) — Vehicle Leasing & Trading Platform
-- Owned end-to-end delivery of a Modular Monolith CRM using Clean Architecture and CQRS/MediatR
-- Covered inventory management and service operations
-- Implemented a scheduled third-party integration for daily lease data synchronization
+Owned end-to-end delivery of a multi-tenant Modular Monolith CRM for Gargash Prime's leasing and trading businesses using Clean Architecture and CQRS/MediatR, from schema design through UAT, built on .NET, MySQL, and Azure.
+
+- **Online lease journey (AutoTraderz):** OTP customer login, lease applications, KYC document checks, staff approve/reject workflow, generated contracts and LPOs with e-signature, and webhook-based processing-fee payments
+- **Lease pricing engine:** rate cards, residual value (RV) %, mileage plans, product rules, and packages, with reference-quote checks in CI to prevent pricing regressions
+- **Speed VLS integration:** daily scheduled sync of all lease agreements, upserting vehicles and customers without overwriting CRM-only fields
+- **Inventory & service operations:** vehicle inventory, service appointments with automated reminders, replacement-vehicle allocation, and mileage and extra-charge tracking
+- **Security & multi-tenancy:** tenant data isolation, per-screen role-based permissions, per-tenant module access, and Microsoft Entra ID SSO for staff
+- **Database migration:** phased SQLite → MySQL migration (schema, compatibility layer, async data access, data migration) with zero data loss
+- **Lead capture:** Meta (Facebook/Instagram) Lead Ads webhooks and public website forms, with branded email notifications via Microsoft Graph
+- **Azure delivery:** containerized backend on Azure Container Apps (built in ACR), frontend on Static Web Apps, GitHub Actions CI/CD with OIDC and health checks, and Bicep templates for the production environment
+- **Buy journey (in progress):** showrooms, vehicle configurator, saved vehicles, and test-drive booking across the storefront API and CRM screens
 
 ### Mahaana — AI-Powered Investment Platform *(Y Combinator–backed)*
 - Built transaction pipelines for risk profiling and portfolio rebalancing on a regulated FinTech platform
