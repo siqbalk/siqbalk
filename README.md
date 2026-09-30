@@ -46,9 +46,14 @@ Owned end-to-end delivery of a multi-tenant Modular Monolith CRM for Gargash Pri
 - Set up Azure delivery: Container Apps, Static Web Apps, GitHub Actions CI/CD with OIDC, and Bicep templates
 - Built the buy journey: showrooms, vehicle configurator, saved vehicles, and test-drive booking
 
-### Mahaana — AI-Powered Investment Platform *(Y Combinator–backed)*
-- Built transaction pipelines for risk profiling and portfolio rebalancing on a regulated FinTech platform
-- System successfully passed external regulatory and investor due-diligence audits
+### Mahaana (Pakistan) — AI-Powered Investment Platform *(Y Combinator–backed)*
+Built and owned core backend microservices for [Mahaana](https://mahaana.com), a regulated FinTech platform serving thousands of investors and employer accounts.
+
+- Developed services for risk profiling, portfolio rebalancing, and automated transaction processing
+- Implemented secure transaction pipelines with strong consistency guarantees, signed off by external compliance auditors
+- Built employer and admin portals with Blazor Server for fund management and operational oversight
+- Partnered with architects to define service boundaries and integration contracts for a loosely coupled distributed system
+- Platform passed regulatory and investor due-diligence audits
 
 ### MCP Server Integration
 - Shipped a production MCP server connecting Anthropic Claude, Microsoft Copilot, and Microsoft Teams
