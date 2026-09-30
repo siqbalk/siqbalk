@@ -25,10 +25,14 @@ I design and deliver cloud-native enterprise platforms, including multi-tenant S
 ## Featured Projects
 
 ### DAMAC Group (Dubai) — Multi-Tenant Inventory & Asset Tracking Platform
-- Designed a multi-tenant SaaS platform supporting RFID, QR, NFC, and OCR intake across **10+ locations**
-- Processes **5,000+ transactions daily**
-- Built a configurable approval-workflow engine
-- Reduced manual processing time by **60%**
+Architected end-to-end delivery of [Invoqat](https://invoqat.com), a multi-tenant SaaS platform processing 5,000+ daily asset transactions across 10+ locations via RFID, QR, Barcode, NFC, and OCR.
+
+- Engineered a configurable procurement workflow (requests → approvals → transfers → consumption), cutting manual processing time by ~60%
+- Built a multi-level RBAC and approval engine across 10+ user roles using Clean Architecture and CQRS/MediatR
+- Automated document scanning with Tesseract and Azure Computer Vision for receipts, delivery notes, and asset labels
+- Shipped a production MCP server integrated with Claude, Microsoft Copilot, Teams, and the Invoqat app for natural-language inventory queries and transfers
+- Implemented event-driven workflows with Azure Service Bus, eliminating manual reconciliation across locations
+- Mentored 5 developers through architecture walkthroughs and code reviews
 
 ### GPrime CRM (Dubai) — Vehicle Leasing & Trading Platform
 Owned end-to-end delivery of a multi-tenant Modular Monolith CRM for Gargash Prime using Clean Architecture and CQRS/MediatR, built on .NET, MySQL, and Azure.
