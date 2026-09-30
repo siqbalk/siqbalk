@@ -25,7 +25,7 @@ I design and deliver cloud-native enterprise platforms, including multi-tenant S
 ## Featured Projects
 
 ### DAMAC Group (Dubai) — Multi-Tenant Inventory & Asset Tracking Platform
-Architected end-to-end delivery of [Invoqat](https://invoqat.com), a multi-tenant SaaS platform processing 5,000+ daily asset transactions across 10+ locations via RFID, QR, Barcode, NFC, and OCR.
+Architected end-to-end delivery of a multi-tenant SaaS platform processing 5,000+ daily asset transactions across 10+ locations via RFID, QR, Barcode, NFC, and OCR.
 
 - Engineered a configurable procurement workflow (requests → approvals → transfers → consumption), cutting manual processing time by ~60%
 - Built a multi-level RBAC and approval engine across 10+ user roles using Clean Architecture and CQRS/MediatR
