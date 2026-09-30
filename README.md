@@ -2,7 +2,7 @@
 
 <p align="center">
   <strong>Senior Full-Stack .NET Developer</strong><br>
-  Azure · Microservices · CQRS · Clean Architecture
+  Angular · Azure Cloud · Microservices · CQRS · Clean Architecture
 </p>
 
 <p align="center">
@@ -16,16 +16,17 @@
 
 I design and deliver cloud-native enterprise platforms, including multi-tenant SaaS products, event-driven microservices, and systems built to remain maintainable long after the first release.
 
-- **6+ years** of professional experience
-- **Domains:** FinTech, InventoryTech, CRM, EdTech
-- **Clients:** UAE, Romania, Pakistan
+- 6+ years of professional experience
+- Domains: FinTech, InventoryTech, CRM, EdTech
+- Clients across the UAE, Romania, and Pakistan
+- Based in Islamabad, Pakistan
 
 ---
 
 ## Featured Projects
 
 ### DAMAC Group (Dubai) — Multi-Tenant Inventory & Asset Tracking Platform
-Architected end-to-end delivery of a multi-tenant SaaS platform processing 5,000+ daily asset transactions across 10+ locations via RFID, QR, Barcode, NFC, and OCR.
+Architected end-to-end delivery of [Invoqat](https://invoqat.com), a multi-tenant SaaS platform processing 5,000+ daily asset transactions across 10+ locations via RFID, QR, Barcode, NFC, and OCR.
 
 - Engineered a configurable procurement workflow (requests → approvals → transfers → consumption), cutting manual processing time by ~60%
 - Built a multi-level RBAC and approval engine across 10+ user roles using Clean Architecture and CQRS/MediatR
@@ -55,9 +56,12 @@ Built and owned core backend microservices for [Mahaana](https://mahaana.com), a
 - Partnered with architects to define service boundaries and integration contracts for a loosely coupled distributed system
 - Platform passed regulatory and investor due-diligence audits
 
-### MCP Server Integration
-- Shipped a production MCP server connecting Anthropic Claude, Microsoft Copilot, and Microsoft Teams
-- Enabled natural-language inventory operations
+### NBHX Rolem SRL (Romania) — Warehouse Management System
+Designed a warehouse platform integrating Zebra RFID hardware for real-time inventory tracking.
+
+- Delivered sub-second inventory visibility across all storage zones using 4–8 antenna RFID arrays
+- Built backend services processing thousands of RFID events per hour for stock sync, adjustments, and transfers
+- Created reporting dashboards that reduced stock discrepancy resolution time by ~40%
 
 ---
 
@@ -65,40 +69,55 @@ Built and owned core backend microservices for [Mahaana](https://mahaana.com), a
 
 | Category | Technologies |
 |---|---|
-| **Languages & Frameworks** | C#, ASP.NET Core, Angular, TypeScript |
-| **Architecture** | Clean Architecture, CQRS/MediatR, Domain-Driven Design, Modular Monolith, Microservices |
-| **Cloud & DevOps** | Microsoft Azure, Docker, GitHub Actions |
-| **Databases** | SQL Server, PostgreSQL |
-| **Messaging** | RabbitMQ, Azure Service Bus |
+| Languages & Frameworks | C#, ASP.NET Core, Minimal APIs, Blazor, Angular, TypeScript, RxJS, NgRx |
+| Architecture | Clean Architecture, CQRS/MediatR, Domain-Driven Design, Vertical Slice, Modular Monolith, Microservices, Event-Driven, Saga Pattern |
+| Cloud (Azure) | App Services, Functions, Container Apps, Static Web Apps, Container Registry, Key Vault, Blob Storage, Service Bus, Computer Vision |
+| DevOps | Docker, GitHub Actions, Bicep |
+| Databases & ORM | SQL Server, PostgreSQL, MySQL, MongoDB, Cosmos DB, Redis, EF Core, Dapper |
+| Messaging | Azure Service Bus, RabbitMQ, Kafka, MassTransit |
+| Auth & Security | OAuth 2.0, OpenID Connect, JWT, Microsoft Entra ID, Azure AD B2C, Keycloak |
+| Testing & Observability | xUnit, NUnit, Moq, FluentAssertions, TDD, Application Insights, OpenTelemetry |
+| AI & Integrations | MCP Servers, RAG, Anthropic Claude, Microsoft Copilot, Microsoft Graph, Microsoft Teams, Tesseract OCR |
 
 <p>
+  <img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square" alt="C#">
   <img src="https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt=".NET">
+  <img src="https://img.shields.io/badge/Blazor-512BD4?style=flat-square&logo=blazor&logoColor=white" alt="Blazor">
   <img src="https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white" alt="Angular">
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
   <img src="https://img.shields.io/badge/Azure-0078D4?style=flat-square" alt="Azure">
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions">
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
   <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square" alt="SQL Server">
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL">
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis">
   <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white" alt="RabbitMQ">
+  <img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white" alt="Kafka">
+  <img src="https://img.shields.io/badge/Claude_MCP-D97757?style=flat-square&logo=anthropic&logoColor=white" alt="Claude MCP">
 </p>
 
 ---
 
 ## Certifications
 
-| Certification | Code |
-|---|---|
-| Microsoft Certified: Azure Developer Associate | AZ-204 |
-| Microsoft Certified: Azure Fundamentals | AZ-900 |
+| Certification | Code | Issued |
+|---|---|---|
+| Microsoft Certified: Azure Developer Associate | AZ-204 | Jul 2026 |
+| Microsoft Certified: Azure Fundamentals | AZ-900 | Aug 2026 |
+
+### Professional Development
+- The .NET Senior Playbook — Anton Dev Tips (Sep 2026)
+- System Design Questions — Anton Dev Tips (Sep 2026)
+- Claude Code for .NET Developers — Anton Dev Tips (Sep 2026)
 
 ---
 
 ## Current Focus
 
-Exploring AI-assisted development with **Claude Code**, including:
+Exploring AI-assisted development with Claude Code, including:
 - Building MCP servers
-- Context management strategies
+- CLAUDE.md and Skills authoring, subagents, and quality-gated workflows
 - Integrating AI tooling into existing enterprise codebases, not just greenfield demos
 
 ---
