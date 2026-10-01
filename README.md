@@ -14,54 +14,44 @@
 
 ## About Me
 
-I design and deliver cloud-native enterprise platforms, including multi-tenant SaaS products, event-driven microservices, and systems built to remain maintainable long after the first release.
+I design and deliver cloud-native enterprise platforms, from multi-tenant SaaS to event-driven microservices, built to stay maintainable long after the first release.
 
-- 6+ years of professional experience
-- Domains: FinTech, InventoryTech, CRM, EdTech
+- 6+ years of enterprise .NET delivery across FinTech, InventoryTech, CRM, and EdTech
 - Clients across the UAE, Romania, and Pakistan
-- Based in Islamabad, Pakistan
+- Platforms handling 5,000+ daily transactions with ~60% less manual processing
 
 ---
 
-## Featured Projects
+## Featured Work
 
-### DAMAC Group (Dubai) — Multi-Tenant Inventory & Asset Tracking Platform
-Architected end-to-end delivery of [Invoqat](https://invoqat.com), a multi-tenant SaaS platform processing 5,000+ daily asset transactions across 10+ locations via RFID, QR, Barcode, NFC, and OCR.
+### DAMAC Group (Dubai) — Multi-Tenant Asset Tracking Platform
+Led end-to-end delivery of [Invoqat](https://invoqat.com), a multi-tenant SaaS platform for asset and inventory management, built with Clean Architecture and CQRS/MediatR on .NET, Angular, and Azure.
 
-- Engineered a configurable procurement workflow (requests → approvals → transfers → consumption), cutting manual processing time by ~60%
-- Built a multi-level RBAC and approval engine across 10+ user roles using Clean Architecture and CQRS/MediatR
-- Automated document scanning with Tesseract and Azure Computer Vision for receipts, delivery notes, and asset labels
-- Shipped a production MCP server integrated with Claude, Microsoft Copilot, Teams, and the Invoqat app for natural-language inventory queries and transfers
-- Implemented event-driven workflows with Azure Service Bus, eliminating manual reconciliation across locations
-- Mentored 5 developers through architecture walkthroughs and code reviews
+- Scaled to 5,000+ daily transactions across 10+ locations via RFID, QR, NFC, and OCR
+- Cut manual processing time by ~60% with a configurable procurement and multi-level approval engine
+- Shipped a production MCP server enabling natural-language inventory operations in Claude, Copilot, and Teams
+- Mentored a team of 5 developers
 
 ### GPrime CRM (Dubai) — Vehicle Leasing & Trading Platform
 Owned end-to-end delivery of a multi-tenant Modular Monolith CRM for Gargash Prime using Clean Architecture and CQRS/MediatR, built on .NET, MySQL, and Azure.
 
-- Delivered the AutoTraderz online lease journey: OTP login, KYC checks, approval workflow, e-signed contracts, and webhook-based payments
-- Designed a lease pricing engine with rate cards, residual values, mileage plans, and CI-validated reference quotes
-- Built a daily Speed VLS integration syncing leases, vehicles, and customers without overwriting CRM-only data
-- Built inventory and service modules: appointments with reminders, replacement vehicles, and mileage tracking
-- Implemented tenant isolation, role-based permissions, and Microsoft Entra ID SSO
-- Added lead capture from Meta Lead Ads and website forms with email notifications via Microsoft Graph
-- Set up Azure delivery: Container Apps, Static Web Apps, GitHub Actions CI/CD with OIDC, and Bicep templates
-- Built the buy journey: showrooms, vehicle configurator, saved vehicles, and test-drive booking
+- Launched the AutoTraderz online lease journey: KYC, approvals, e-signed contracts, and online payments
+- Designed a lease pricing engine with rate cards, residual values, and mileage plans, validated in CI
+- Automated daily lease sync with Speed VLS and lead capture from Meta Lead Ads
+- Built Azure delivery with Container Apps, GitHub Actions (OIDC), and Bicep
 
-### Mahaana (Pakistan) — AI-Powered Investment Platform *(Y Combinator–backed)*
-Built and owned core backend microservices for [Mahaana](https://mahaana.com), a regulated FinTech platform serving thousands of investors and employer accounts.
+### Mahaana (Pakistan) — AI-Powered Investment Platform (Y Combinator–backed)
+Built core backend microservices for [Mahaana](https://mahaana.com), a regulated FinTech platform serving thousands of investors, on ASP.NET Core, RabbitMQ, and Azure.
 
-- Developed services for risk profiling, portfolio rebalancing, and automated transaction processing
-- Implemented secure transaction pipelines with strong consistency guarantees, signed off by external compliance auditors
-- Built employer and admin portals with Blazor Server for fund management and operational oversight
-- Partnered with architects to define service boundaries and integration contracts for a loosely coupled distributed system
-- Platform passed regulatory and investor due-diligence audits
+- Owned risk profiling, portfolio rebalancing, and automated transaction processing services
+- Delivered secure transaction pipelines that passed regulatory and investor due-diligence audits
+- Built employer and admin portals with Blazor Server
 
-### NBHX Rolem SRL (Romania) — Warehouse Management System
-Designed a warehouse platform integrating Zebra RFID hardware for real-time inventory tracking.
+### NBHX Rolem SRL (Romania) — RFID Warehouse Management System
+Built a real-time warehouse platform integrated with Zebra RFID hardware, on ASP.NET Core and Angular.
 
-- Delivered sub-second inventory visibility across all storage zones using 4–8 antenna RFID arrays
-- Built backend services processing thousands of RFID events per hour for stock sync, adjustments, and transfers
-- Created reporting dashboards that reduced stock discrepancy resolution time by ~40%
+- Delivered sub-second inventory visibility, processing thousands of RFID events per hour
+- Reduced stock discrepancy resolution time by ~40%
 
 ---
 
